@@ -22,7 +22,7 @@
             x:Name="PerfilButao"
             Text="Visitar Perfil"
             Clicked="PerfilButao_Clicked"
-            HorizontalOptions="CenterAndExpand"
+            HorizontalOptions="Fill"
             Margin="20"/>
         
     </VerticalStackLayout>
