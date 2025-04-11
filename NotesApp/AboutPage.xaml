@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NotesApp.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout
+        Padding="30">
+
+        <Image
+            x:Name="PerfilFoto"
+            Source="eu.jpeg"
+            Aspect="AspectFill"
+            HeightRequest="280"
+            WidthRequest="280">
+
+            <Image.Clip>
+                <EllipseGeometry Center="125,125" RadiusX="125" RadiusY="125" />
+            </Image.Clip>
+        </Image>
+
+        <Button
+            x:Name="PerfilButao"
+            Text="Visitar Perfil"
+            Clicked="PerfilButao_Clicked"
+            HorizontalOptions="CenterAndExpand"
+            Margin="20"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
